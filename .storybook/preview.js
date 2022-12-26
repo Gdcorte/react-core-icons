@@ -1,5 +1,10 @@
 
 export const parameters = {
+  options: {
+    storySort: {
+      order: ['Bundles']
+    }
+  },
   actions: { argTypesRegex: "^on[A-Z].*" },
   controls: {
     matchers: {
