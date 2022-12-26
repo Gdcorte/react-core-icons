@@ -1,0 +1,9 @@
+export { default as AnatomyArm } from "./Arm";
+export { default as AnatomyAnatomy } from "./Bundle";
+export { default as AnatomyEye } from "./Eye";
+export { default as AnatomyEyeCrossed } from "./EyeCrossed";
+export { default as AnatomyFat } from "./Fat";
+export { default as AnatomyFeet } from "./Feet";
+export { default as AnatomyLeg } from "./Leg";
+export { default as AnatomyTorsoFemale } from "./TorsoFemale";
+export { default as AnatomyTorsoMale } from "./TorsoMale";
