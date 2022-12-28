@@ -1,5 +1,5 @@
 export { default as AnatomyArm } from "./Arm";
-export { default as AnatomyAnatomy } from "./Bundle";
+export { default as Anatomy } from "./Bundle";
 export { default as AnatomyEye } from "./Eye";
 export { default as AnatomyEyeCrossed } from "./EyeCrossed";
 export { default as AnatomyFat } from "./Fat";
