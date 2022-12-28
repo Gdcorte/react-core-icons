@@ -15,16 +15,18 @@ const StyledBaseSvg = styled(BaseSvg)`
   }
 `;
 
-const UnitedStates: IconComponent = ({ ...props }) => {
+const UnitedStates: IconComponent = ({ className, ...props }) => {
   // https://uxwing.com/united-states-flag-icon/
 
   return (
     <StyledBaseSvg
       iconName="flag-united-states"
+      className={className}
       shapeRendering="geometricPrecision"
       textRendering="geometricPrecision"
       imageRendering="optimizeQuality"
       viewBox="0 0 169.701 127.846"
+      {...props}
     >
       <g transform="matrix(3.06935, 0, 0, 3.320759, 0.164928, 0.121201)">
         <path
