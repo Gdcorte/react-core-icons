@@ -11,16 +11,18 @@ const StyledBaseSvg = styled(BaseSvg)`
   }
 `;
 
-const Japan: IconComponent = ({ ...props }) => {
+const Japan: IconComponent = ({ className, ...props }) => {
   // https://uxwing.com/japan-flag-icon/
 
   return (
     <StyledBaseSvg
       iconName="flag-japan"
+      className={className}
       shapeRendering="geometricPrecision"
       textRendering="geometricPrecision"
       imageRendering="optimizeQuality"
       viewBox="0 0 169.701 127.846"
+      {...props}
     >
       <g transform="matrix(3.046094, 0, 0, 3.287246, 0.108072, 0.160063)">
         <path

@@ -25,6 +25,7 @@ const Brazil: IconComponent = ({ className, ...props }) => {
   return (
     <StyledBaseSvg
       iconName="flag-rectangle-brazil"
+      className={className}
       shapeRendering="geometricPrecision"
       textRendering="geometricPrecision"
       imageRendering="optimizeQuality"
