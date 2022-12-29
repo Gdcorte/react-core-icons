@@ -1,5 +1,5 @@
 import { ComponentMeta, ComponentStory } from "@storybook/react";
-import { BoxedDecorator } from "../../../.storybook/decorators";
+import { BoxedDecorator } from "../../.storybook";
 import CarretRight from "./Right";
 
 export default {

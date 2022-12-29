@@ -1,6 +1,15 @@
 export * from "./Anatomy";
 export { BaseSvg, BaseSvgBox } from "./Base";
-export type { IconComponent, IconProps } from "./Base/interface";
+export type { IconComponent, SvgBoxComponent } from "./Base";
 export * from "./Carret";
 export * from "./Flag";
+export * from "./Food";
+export * from "./Gym";
+export * from "./Health";
+export * from "./House";
+export * from "./Nature";
+export * from "./Organization";
+export * from "./Recycling";
+export * from "./Stationery";
+export * from "./Symbols";
 export * from "./Tools";
