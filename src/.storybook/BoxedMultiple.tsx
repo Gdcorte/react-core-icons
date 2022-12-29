@@ -1,4 +1,5 @@
 import { ComponentStory } from "@storybook/react";
+import React from "react";
 import styled from "styled-components";
 
 const StyledMultiBox = styled.div`

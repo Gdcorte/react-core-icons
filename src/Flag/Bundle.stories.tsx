@@ -1,6 +1,6 @@
 import { ComponentMeta, ComponentStory } from "@storybook/react";
 import { Flags as Flag } from ".";
-import { BoxedMultipleDecorator } from "../../.storybook/decorators";
+import { BoxedMultipleDecorator } from "../.storybook/";
 import SvgBox from "../Base/Box";
 import { IconComponent } from "../Base/interface";
 
