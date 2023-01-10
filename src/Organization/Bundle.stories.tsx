@@ -15,6 +15,9 @@ const Template: ComponentStory<IconComponent> = (args) => {
       <SvgBox>
         <OrganizationIcons.Dashboard />
       </SvgBox>
+      <SvgBox>
+        <OrganizationIcons.Menu />
+      </SvgBox>
     </>
   );
 };

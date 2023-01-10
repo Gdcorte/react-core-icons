@@ -1,3 +1,4 @@
+export { default as SymbolsAdd } from "./Add";
 export { default as Symbols } from "./Bundle";
 export { default as SymbolsInfinite } from "./Infinite";
 export { default as SymbolsQuestion } from "./Question";
