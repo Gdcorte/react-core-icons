@@ -16,6 +16,9 @@ const Template: ComponentStory<IconComponent> = (args) => {
         <AnatomyIcons.Arm {...args} />
       </SvgBox>
       <SvgBox>
+        <AnatomyIcons.Bone {...args} />
+      </SvgBox>
+      <SvgBox>
         <AnatomyIcons.Eye {...args} />
       </SvgBox>
       <SvgBox>
