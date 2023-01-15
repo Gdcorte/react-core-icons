@@ -10,28 +10,17 @@ export default {
 } as ComponentMeta<IconComponent>;
 
 const Template: ComponentStory<IconComponent> = (args) => {
-  return (
-    <>
-      <SvgBox>
-        <Food.Beef />
+  const FoodItems = Object.keys(Food).map((value) => {
+    let key = value as keyof typeof Food;
+    const Element = Food[key];
+    return (
+      <SvgBox key={`food-${Math.random().toFixed(10)}`}>
+        <Element />
       </SvgBox>
-      <SvgBox>
-        <Food.Breakfast />
-      </SvgBox>
-      <SvgBox>
-        <Food.BurguerFries />
-      </SvgBox>
-      <SvgBox>
-        <Food.Dish />
-      </SvgBox>
-      <SvgBox>
-        <Food.Recipe />
-      </SvgBox>
-      <SvgBox>
-        <Food.Tomato />
-      </SvgBox>
-    </>
-  );
+    );
+  });
+
+  return <>{FoodItems}</>;
 };
 
 export const Foods = Template.bind({});

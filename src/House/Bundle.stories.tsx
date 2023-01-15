@@ -24,6 +24,12 @@ const Template: ComponentStory<IconComponent> = (args) => {
       <SvgBox>
         <HouseIcons.Kitchen.ForkSpoon />
       </SvgBox>
+      <SvgBox>
+        <HouseIcons.Kitchen.PetBottle />
+      </SvgBox>
+      <SvgBox>
+        <HouseIcons.Kitchen.Pot />
+      </SvgBox>
     </>
   );
 };

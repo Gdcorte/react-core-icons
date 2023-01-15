@@ -27,6 +27,9 @@ const Template: ComponentStory<IconComponent> = (args) => {
       <SvgBox>
         <NatureIcons.Water />
       </SvgBox>
+      <SvgBox>
+        <NatureIcons.Leaf />
+      </SvgBox>
     </>
   );
 };
