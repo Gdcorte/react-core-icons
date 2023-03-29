@@ -10,6 +10,7 @@ export * from "./House";
 export * from "./Nature";
 export * from "./Organization";
 export * from "./Recycling";
+export * from "./Social";
 export * from "./Stationery";
 export * from "./Symbols";
 export * from "./Tools";
