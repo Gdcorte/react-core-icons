@@ -18,6 +18,9 @@ const Template: ComponentStory<IconComponent> = (args) => {
       <SvgBox>
         <SocialIcons.Github />
       </SvgBox>
+      <SvgBox>
+        <SocialIcons.Microsoft />
+      </SvgBox>
     </>
   );
 };
